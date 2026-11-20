@@ -1,0 +1,8 @@
+{
+  "require_material": ["IFCWALL", "IFCDOOR", "IFCWINDOW", "IFCSLAB", "IFCCOLUMN", "IFCBEAM", "IFCCOVERING"],
+  "required_properties": {
+    "IFCWALL": ["Pset_WallCommon.FireRating"],
+    "IFCDOOR": ["Pset_DoorCommon.FireRating", "Pset_DoorCommon.IsExternal"]
+  },
+  "min_space_area": 10.0
+}
