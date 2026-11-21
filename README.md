@@ -2,6 +2,8 @@
 
 # ifc-model-checker
 
+[![CI](https://github.com/yassine2med/ifc-model-checker/actions/workflows/ci.yml/badge.svg)](https://github.com/yassine2med/ifc-model-checker/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab) ![License](https://img.shields.io/badge/license-MIT-8fb08a)
+
 An IFC file can open fine in a viewer and still be unfit for handover: two elements share a GlobalId, a wall sits outside every storey, a door has no fire rating. This repo reads IFC STEP text with the Python standard library only (no ifcopenshell), runs a set of rules and lists each problem with the entity number, type and name. Rules are plain JSON, so you can tighten them per project.
 
 ![Screenshot](docs/screenshot.png)
